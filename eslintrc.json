@@ -6,7 +6,7 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "standard", "standard-react","react-app"],
   "rules": {
-    "indent": ["error", 2, { "VariableDeclarator": "first" }],
+    "indent": ["error", 2],
     "quotes": ["error", "single"],
     "jsx-quotes": ["error", "prefer-single"],
     "space-before-function-paren": ["error", "always"],
