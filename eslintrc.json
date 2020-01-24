@@ -17,7 +17,7 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended", "standard", "standard-react","react-app"],
   "rules": {
-    "indent": ["error", 2],
+    "indent": ["error", 2, {"ignoredNodes": ["JSXElement"]}],
     "quotes": ["error", "single"],
     "jsx-quotes": ["error", "prefer-single"],
     "space-before-function-paren": ["error", "always"],
