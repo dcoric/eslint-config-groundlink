@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-groundlink",
   "description": "GroundLink Standard Style - ESLint Shareable Config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "GroundLink",
     "email": "devs@groundlink.com",
