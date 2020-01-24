@@ -4,6 +4,17 @@
     "commonjs": true,
     "es6": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "globals": {
+    "document": "readonly",
+    "navigator": "readonly"
+  },
   "extends": ["eslint:recommended", "plugin:react/recommended", "standard", "standard-react","react-app"],
   "rules": {
     "indent": ["error", 2],
