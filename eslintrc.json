@@ -33,7 +33,8 @@
     "react/prop-types": "off",
     "camelcase": "off",
     "react/no-unescaped-entities": "warn",
-    "react/jsx-handler-names": "off"
+    "react/jsx-handler-names": "off",
+    "react/jsx-indent": "warn"
   },
   "settings": {
     "react": {
