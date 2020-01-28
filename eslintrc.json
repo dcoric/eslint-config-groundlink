@@ -35,7 +35,10 @@
     "react/no-unescaped-entities": "warn",
     "react/jsx-handler-names": "off",
     "react/jsx-indent": "warn",
-    "react/jsx-closing-tag-location": "warn"
+    "react/jsx-closing-tag-location": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "prefer-const": "warn",
+    "react/jsx-fragments": "warn"
   },
   "settings": {
     "react": {
