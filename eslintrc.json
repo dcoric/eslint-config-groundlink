@@ -15,7 +15,7 @@
     "document": "readonly",
     "navigator": "readonly"
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "standard", "standard-react","react-app"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "standard", "standard-react","react-app", "plugin:react-hooks/recommended"],
   "rules": {
     "indent": ["error", 2, {"ignoredNodes": [
       "JSXElement", "JSXElement > *", "JSXAttribute", "JSXIdentifier", "JSXNamespacedName", "JSXMemberExpression", "JSXSpreadAttribute", "JSXExpressionContainer", "JSXOpeningElement", "JSXClosingElement", "JSXText", "JSXEmptyExpression", "JSXSpreadChild"
